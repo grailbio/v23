@@ -23,7 +23,8 @@ func init() {
 	library.Roam = false
 	library.CloudVM = true
 	library.ConfigureLoggingFromFlags = true
-	library.ConfigurePermissionsFromFlags = true
+	//TODO(sbagaria): Re-enable when updating to v.io v.0.1.2
+	//library.ConfigurePermissionsFromFlags = true
 	library.ReservedNameDispatcher = true
 	flow.RegisterUnknownProtocol("wsh", websocket.WSH{})
 	library.EnableCommandlineFlags()
