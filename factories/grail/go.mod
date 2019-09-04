@@ -2,4 +2,4 @@
 // version number. Hence, the module is at this level.
 module github.com/grailbio/v23/factories/grail
 
-require v.io v0.1.3
+require v.io v0.1.5
